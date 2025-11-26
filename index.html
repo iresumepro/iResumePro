@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>iResumePro — Free Resume Maker</title>
+<meta name="description" content="iResumePro — Create professional resumes online. Fill form, preview, and download PDF. Free and easy."/>
+<link rel="icon" href="logo.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="logo.svg" class="logo" alt="iResumePro logo">
+      <nav class="nav">
+        <a href="builder.html"><button class="btn">Start Building</button></a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="copy">
+        <h1>Create professional resumes in minutes — iResumePro</h1>
+        <p>Simple form-based resume maker. Preview instantly. Print & Save as PDF. Mobile friendly. No signup required.</p>
+        <div style="margin-top:10px">
+          <a href="builder.html"><button class="btn">Start for Free</button></a>
+          <a href="builder.html"><button class="btn secondary" style="margin-left:8px">Try Demo</button></a>
+        </div>
+      </div>
+
+      <div style="width:360px">
+        <div class="card">
+          <h3 style="margin-top:0;color:var(--accent)">Why iResumePro?</h3>
+          <ul style="margin:8px 0;color:var(--muted)">
+            <li>Free & Offline (client-side)</li>
+            <li>Word-like layouts</li>
+            <li>Print-ready PDF</li>
+            <li>No accounts, no storage</li>
+          </ul>
+          <p style="margin:8px 0"><strong>Tip:</strong> Use Print → Save as PDF for a Word-like document.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <div>
+        <div class="card">
+          <h3>How it works</h3>
+          <ol style="color:var(--muted)">
+            <li>Open Builder → Fill the form</li>
+            <li>Preview updates live</li>
+            <li>Print → Save as PDF</li>
+            <li>Use your custom domain or share link</li>
+          </ol>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Features</h3>
+          <ul style="color:var(--muted)">
+            <li>Multiple templates (future)</li>
+            <li>SEO friendly</li>
+            <li>Fast & secure</li>
+          </ul>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Get started</h3>
+          <p style="color:var(--muted)">Create your resume now — it works on phone and laptop.</p>
+          <a href="builder.html"><button class="btn">Open Builder</button></a>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      © <span id="year"></span> iResumePro — Free Resume Maker • Hosted on GitHub Pages
+    </footer>
+  </div>
+
+<script>
+document.getElementById('year').innerText=new Date().getFullYear();
+</script>
+</body>
+</html>
