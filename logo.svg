@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="iResumePro logo">
+  <rect rx="8" width="240" height="60" fill="#0b66c3"/>
+  <g transform="translate(12,10)" fill="#fff" font-family="Segoe UI, Roboto, Arial" >
+    <text x="0" y="18" font-size="18" font-weight="700">iResume</text>
+    <text x="115" y="18" font-size="18" font-weight="700" fill="#ffd166">Pro</text>
+    <text x="0" y="40" font-size="10" fill="#e6f0ff">Create • Preview • Download</text>
+  </g>
+</svg>
